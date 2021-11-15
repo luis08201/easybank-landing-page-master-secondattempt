@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+:root {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+
+  /* COLORES */
+
+  /* PRIMARIO */
+  --Dark-Blue: #2d314d;
+  --Lime-Green: #31d35c;
+  --Bright-Cyan: #2bb7da;
+
+  /* NEUTRAL */
+  --Grayish-Blue: #9698a6;
+  --Light-Grayish-Blue: #f3f4f6;
+  --Very-Light-Gray: #fafafa;
+  --White: #ffffff;
+}
+
+@mixin anchoPantalla {
+  min-width: 327px;
+  max-width: 1110px;
+  margin:0 auto;
+}
